@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <title>Online Sale Site</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+	<title>E-Commerce Products</title>
+	<style>
+		/* Style the product grid */
+		.product-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+			grid-gap: 20px;
+		}
+
+		/* Style the product card */
+		.product-card {
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0 2px 5px rgba(0,0,0,.1);
+			padding: 20px;
+		}
+
+		/* Style the product image */
+		.product-image {
+			display: block;
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+
+		/* Style the product title */
+		.product-title {
+			font-weight: bold;
+			font-size: 18px;
+			margin-bottom: 10px;
+		}
+
+		/* Style the product price */
+		.product-price {
+			font-weight: bold;
+			font-size: 16px;
+			color: green;
+			margin-bottom: 10px;
+		}
+
+		/* Style the product button */
+		.product-button {
+			background-color: blue;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		/* Style the product button on hover */
+		.product-button:hover {
+			background-color: darkblue;
+		}
+	</style>
+</head>
+<body>
+    <header>
+		<h1>REFLOWER</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+	<main>
+		<section class="banner">
+			<a href="#" class="button">Shop now</a>
+		</section>
+
+	<div class="product-grid">
+		<div class="product-card">
+			<img class="product-image" src="image\2.jpg">
+			<div class="product-title">phone</div>
+			<div class="product-price">$20.00</div>
+			<button class="product-button">Add to Cart</button>
+		</div>
+		<div class="product-card">
+			<img class="product-image" src="image\4.jpg">
+			<div class="product-title">labtop</div>
+			<div class="product-price">$500.00</div>
+			<button class="product-button">Add to Cart</button>
+		</div>
+		<div class="product-card">
+			<img class="product-image" src="image\3.jpg">
+			<div class="product-title">bed</div>
+			<div class="product-price">$40.00</div>
+			<button class="product-button">Add to Cart</button>
+		</div>
+		
+	</div>
+</body>
+</html>
+
